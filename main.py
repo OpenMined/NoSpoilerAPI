@@ -5,7 +5,7 @@ import json
 if __name__ == "__main__":
     client = Client.load()
 
-    ionesio_datasite_path = client.datasites / "ionesio@openmined.org" / "api_data" / "dont_spoiler" / (client.email + ".json")
+    ionesio_datasite_path = client.datasites / "user@email.com" / "api_data" / "no_spoiler" / (client.email + ".json")
     dataset = load_dataset("Netflix Data")
     
     result = "No"
