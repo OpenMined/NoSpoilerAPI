@@ -9,7 +9,7 @@ if __name__ == "__main__":
     dataset = load_dataset("Netflix Data")
     
     result = "No"
-    if "The Intern" in dataset['Title']:
+    if "Movie/Serie Title" in dataset['Title']:
        result = "Yes"
 
     with open(str(ionesio_datasite_path), 'w') as json_file:
